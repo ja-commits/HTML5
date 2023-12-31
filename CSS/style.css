@@ -1,0 +1,48 @@
+h1
+{
+  color: aqua;
+}
+p{
+   border-style: none; /* Default Proprty */
+   border-style: solid;
+   border-style: dashed;
+   border-style: dotted;
+   border-style: double;
+   border-top-style: dashed;
+   border-bottom-style: dotted;
+   border-right-style:double;
+   border-left-style:solid;
+   border-style: dotted dashed double none;
+   border-style: dotted double;
+ /* border width */
+ border-width: thick;
+ border-width: medium;
+ border-width: thin;
+ border-width: 2px;
+ border-top-width: thick;
+ border-bottom-width: medium;
+ border-left-width: thin;
+ border-right-width: 4px;
+ /* border Color  */
+ border-color: pink;
+ border-top-color: green;
+ border-bottom-color:blue;
+ border-left-color: yellow;
+ border-right-color: orange;
+}
+
+a{
+  border-style: solid;
+  padding: 4px 10px;
+  border-color: aqua;
+  border-width: 2px;
+  border: solid 2p;
+border-radius: 15px;
+color: green;
+
+}
+a:hover
+{
+  color: pink;
+  background-color: yellow;
+}
